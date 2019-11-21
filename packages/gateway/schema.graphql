@@ -1,0 +1,141 @@
+scalar JSON
+
+type Test {
+  notarizationAdd: JSON
+  notarizationStart: JSON
+  notarizationCheck: JSON
+  testParent: Boolean
+}
+
+type MeterDataOfLastDayItem {
+  consumer: String
+  meter: String
+  timestamp: String
+  activePower: String
+  reactivePower: String
+  fullPower: String
+}
+
+type NotarizedDataItem {
+  date: String
+  "хэш эфириума"
+  address: String
+  notarized: Boolean
+  "дата последней проверки нотаризации"
+  lastCheckDate: String
+  "хэш данных слепка"
+  dataHash: String
+  meterName: String
+  meterId: Int
+}
+
+type Sockets {
+  getClients: [String]
+}
+
+type TransactionPaging {
+  pages: Int
+  items: [TransactionItem],
+  countItems: Int
+}
+
+type TransactionItem {
+  "Потребитель"
+  consumer: String
+  "Имя счетчика"
+  meterName: String
+  "Идентификатор счетчика"
+  meterId: Int
+  "Окончание периода"
+  endPeriod: String
+  "Мощность активная"
+  powerActive: String
+  "Мощность реактивная"
+  powerReactive: String
+  "Мощность полная"
+  powerFull: String
+  "Eth транзакция"
+  ethTxId: String
+}
+
+input sendSocketByUserIdInput {
+  userId: String
+  event: String
+  data: JSON
+}
+
+type EthereumStats {
+  account: String
+  balance: Float
+}
+type ConsumerItem {
+  id: Int
+  name: String
+}
+type EnergyCompanyItem {
+  id: Int
+  name: String
+}
+type MeterItem {
+  id: Int
+  name: String
+  address: String
+}
+
+input SortItem {
+  field: String
+  order: String
+}
+
+type Query {
+  enegrgyCompanyGetList: [EnergyCompanyItem]
+  consumersGetList(energyCompanyId: Int): [ConsumerItem]
+  metersGetList(consumerId: Int): [MeterItem]
+  readingsGetList(
+    fromDate: String
+    toDate: String
+    energyCompanyId: Int
+    consumerId: Int
+    meterId: Int
+    sort: [SortItem]
+  ): [TransactionItem]
+  readingsGetListPaging(
+    fromDate: String
+    toDate: String
+    energyCompanyId: Int
+    consumerId: Int
+    meterId: Int
+    page: Int
+    pageSize: Int
+    sort: [SortItem]
+  ): TransactionPaging
+  xmlImport: Boolean
+  checkPSK: Boolean
+  generateReport: String
+  testPSK(day: String): JSON
+
+  test: Test
+  initDB: Boolean
+  transactions(fromDate: String, toDate: String, fromTime: String, toTime: String): [TransactionItem]
+  sockets: Sockets
+  notarizedData: [NotarizedDataItem]
+  getMeterDataOfLastDay: [MeterDataOfLastDayItem]
+
+  # TODO SOME WEIRD SHIT GOING ON HERE
+  notarizationAdd: JSON
+  notarizationStart: JSON
+  notarizationCheck: JSON
+  notarizationCheckTest: JSON
+  ethereum: EthereumStats
+}
+
+type AuthResult {
+  token: String
+}
+
+type Mutation {
+  sendSocketByUserId(input: sendSocketByUserIdInput): Boolean
+  checkMeter: Boolean
+  auth(login: String, password: String): AuthResult
+  checkAuth: JSON
+}

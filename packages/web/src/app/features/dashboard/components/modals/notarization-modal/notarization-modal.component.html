@@ -1,0 +1,20 @@
+<mpp-modal>
+  <mpp-modal-header>
+    <i class="material-icons" style="cursor: pointer;" (click)="close()">close</i>
+  </mpp-modal-header>
+
+  <mpp-modal-body>
+    <app-offset-block yOffset="x-large" xOffset="x-large">
+      <h2>Data notarization validation</h2>
+
+      <div style="display: flex;align-items: center;">
+        <button class="button" (click)="checkNotarization()">Validate</button>
+        <span style="margin-left: 16px;" *ngIf="notarization$ | async as notarization"><b>Last notarization date:</b> {{ (notarization.lastChecked || notarization[0].lastChecked) | date }}</span>
+      </div>
+
+      <mpp-anchors-table [data]="anchors$ | async"></mpp-anchors-table>
+    </app-offset-block>
+
+  </mpp-modal-body>
+
+</mpp-modal>

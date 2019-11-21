@@ -1,0 +1,11 @@
+@import "base/variables";
+@import "base/placeholders/text";
+@import "base/placeholders/bg";
+
+:host {
+  @extend %background-overlay;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

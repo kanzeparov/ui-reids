@@ -1,0 +1,92 @@
+<ng-container *ngIf="peers$ | async as peers">
+  <table class="table" cellspacing="0">
+    <thead>
+      <tr>
+        <th colspan="2">
+          <app-offset-block class="bold">
+            <ng-content select=".operator"></ng-content>
+          </app-offset-block>
+        </th>
+
+        <th>
+          <app-offset-block class="bold">
+            End period balance
+          </app-offset-block>
+        </th>
+
+        <th colspan="2">
+          <app-offset-block class="bold">
+            <ng-content select=".type"></ng-content>
+          </app-offset-block>
+        </th>
+
+        <th></th>
+      </tr>
+
+      <tr>
+        <th>
+          <app-offset-block class="thin">
+            Name
+          </app-offset-block>
+        </th>
+        <th>
+          <app-offset-block class="thin">
+            ID
+          </app-offset-block>
+        </th>
+
+        <th>
+          <app-offset-block class="thin">
+            REIDSCoin
+          </app-offset-block>
+        </th>
+
+        <th>
+          <app-offset-block class="thin">
+            kW·h
+          </app-offset-block>
+        </th>
+
+        <th>
+          <app-offset-block class="thin">
+            REIDSCoin
+          </app-offset-block>
+        </th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr class="table-row" *ngFor="let item of peers" (click)="navigateTo(item.id)">
+        <td class="table-col">
+          <app-offset-block>
+            {{ item.total }}
+          </app-offset-block>
+        </td>
+
+        <td class="table-col">
+          <app-offset-block>
+            {{ item.id }}
+          </app-offset-block>
+        </td>
+
+        <td class="table-col">
+          <app-offset-block>
+            {{ item.balance }}
+          </app-offset-block>
+        </td>
+
+        <td class="table-col">
+          <app-offset-block>
+            {{ item.bought || item.sold }}
+          </app-offset-block>
+        </td>
+
+        <td class="table-col">
+          <app-offset-block>
+            {{ item.price }}
+          </app-offset-block>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</ng-container>

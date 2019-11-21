@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": { "*": ["types/*"] },
+    "target": "es2017",
+    "module": "commonjs",
+    "lib": ["es2017", "dom"],
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "declaration": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "noImplicitReturns": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "emitDecoratorMetadata": true,
+    "sourceRoot": "src/",
+    "outDir": "lib/",
+    "types": [
+      "@types/node",
+      "@types/jest",
+      "@machinomy/types-web3",
+      "@machinomy/types-ethereumjs-abi",
+      "@machinomy/types-ethereumjs-util"
+    ]
+  }
+}

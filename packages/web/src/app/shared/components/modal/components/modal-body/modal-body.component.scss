@@ -1,0 +1,22 @@
+@import 'base/variables';
+
+.mpp-modal-body {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  max-height: 65vh;
+  overflow-y: visible;
+  padding: 0;
+
+  &--white {
+    background-color: $color-white;
+  }
+
+  // &--off-white {
+  //   background-color: $bg-off-white;
+  // }
+
+  // &--with-spacing {
+  //   padding: $xxl $lg;
+  // }
+}

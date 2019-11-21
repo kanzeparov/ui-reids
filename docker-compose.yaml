@@ -1,0 +1,73 @@
+version: '3.7'
+
+volumes:
+  postgres:
+    driver: local
+
+services:
+  postgres:
+    image: 'postgres:11'
+    volumes:
+      - postgres:/var/lib/postgresql/data
+      - ./scripts/pg_init.sql:/docker-entrypoint-initdb.d/1-init.sql
+    ports:
+      - 5432:5432
+
+  base:
+    image: mpp_base
+    build:
+      context: .
+      dockerfile: base.dockerfile
+
+  builder:
+    image: mpp_builder
+    build:
+      context: .
+      dockerfile: builder.dev.dockerfile
+    depends_on:
+      - base
+
+  web:
+    build:
+      context: packages/web/
+      dockerfile: Dockerfile
+      args:
+        builder: mpp_builder:latest
+    command: yarn start --host=0.0.0.0 --port=4202
+    ports:
+      - 4202:4202
+    volumes:
+      - ./packages/web:/opt/packages/web
+    depends_on:
+      - builder
+      # - gateway
+
+  gateway:
+    build:
+      context: packages/gateway/
+      dockerfile: Dockerfile
+      args:
+        builder: mpp_builder:latest
+    command: yarn start
+    env_file:
+      - packages/gateway/.env
+    ports:
+      - 9001:9001
+    volumes:
+      - ./packages/gateway:/opt/packages/gateway
+    depends_on:
+      - builder
+      - postgres
+
+  contracts:
+    build:
+      context: packages/contracts_service/
+      dockerfile: Dockerfile
+      args:
+        builder: mpp_builder:latest
+    command: yarn start
+    ports:
+      - 9005:9005
+    depends_on:
+      - builder
+      - gateway

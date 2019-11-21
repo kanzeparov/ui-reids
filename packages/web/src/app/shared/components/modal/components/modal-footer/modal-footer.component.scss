@@ -1,0 +1,35 @@
+@import 'base/variables';
+
+$modal-footer-height: 80px;
+
+footer.mpp-modal-footer {
+  display: flex;
+  align-items: center;
+  // min-height: $modal-footer-height;
+  // background-color: $bg-off-white;
+  // border-radius: $border-radius-container;
+
+  &--left {
+    justify-content: flex-start;
+  }
+
+  &--right {
+    justify-content: flex-end;
+  }
+
+  &--center {
+    justify-content: center;
+  }
+
+  &--space-between {
+    justify-content: space-between;
+  }
+  
+  // &--off-white {
+  //   background-color: $bg-off-white;
+  // }
+
+  // &--with-spacing {
+  //   padding: $lg;
+  // }
+}

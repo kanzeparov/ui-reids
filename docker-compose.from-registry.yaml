@@ -1,0 +1,40 @@
+version: '3.7'
+
+services:
+  dbpostgress:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: example
+    ports:
+      - "5432:5432"
+  web:
+    image: generalregistry.azurecr.io/interrao_web
+    command: yarn start --host=0.0.0.0 --port=4202
+    environment:
+      YARN_HOST: "true"
+      HTTP_PORT: 9001
+      LOG_LEVEL: debug
+      LOG_TIME_FORMAT: "HH:mm:ss"
+      LOG_FORMAT: console
+      SOCKET_TOKEN: secretToken
+      NOTARIZATION_MODULE_URL: http://mpp_contracts_1:9005
+      PG: postgresql://root@mpp_postgres_1/onder_mpp
+      MNEMONIC: claim keen foam hand debate uncover fortune manage goat clock skull father
+      INFURA_URL: https://rinkeby.infura.io/
+    ports:
+      - 4202:4202
+
+  gateway:
+    image: generalregistry.azurecr.io/interrao_gateway
+    command: yarn start
+    env_file:
+      - packages/gateway/.env
+    ports:
+      - 9001:9001
+
+  contracts:
+    image: generalregistry.azurecr.io/interrao_contracts
+    command: yarn start
+    ports:
+      - 9005:9005

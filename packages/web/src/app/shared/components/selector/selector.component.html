@@ -1,0 +1,21 @@
+<label class="app-selector__label">{{ label }}</label>
+<div ngbDropdown>
+  <app-offset-block class="app-selector__toggle" yOffset="x-small" xOffset="small">
+    <div class="app-selector__content" ngbDropdownToggle id="dropdownMenu">
+      <span>{{ selectedItemName }}</span>
+      <i class="material-icons">keyboard_arrow_down</i>
+    </div>
+  </app-offset-block>
+
+  <div ngbDropdownMenu aria-labelledby="dropdownMenu" class="app-selector__items">
+    <button
+      ngbDropdownItem
+      *ngFor="let item of items"
+      (click)="onSelect(item)"
+      class="app-selector__item"
+      [class.active]="item === selectedItem"
+    >
+      {{ item.name }}
+    </button>
+  </div>
+</div>

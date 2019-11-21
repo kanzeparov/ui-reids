@@ -1,0 +1,33 @@
+<mpp-modal>
+  <mpp-modal-header>
+    <i class="material-icons" style="cursor: pointer;" (click)="close()">close</i>
+  </mpp-modal-header>
+
+  <mpp-modal-body>
+    <app-offset-block yOffset="x-large" xOffset="x-large">
+      <h2>Price settings</h2>
+
+      <div style="margin-bottom: 16px;">
+        <div *ngFor="let price of prices; let i = index;" style="display: flex; align-items: center;">
+          <input
+            class="modal-control form-control"
+            type="text"
+            [(ngModel)]="price.amount"
+          >
+          <input
+            class="modal-control form-control"
+            type="text"
+            [(ngModel)]="price.price"
+          >
+          <i class="material-icons" style="color: #1AA5B8; cursor: pointer;" (click)="remove(i)">close</i>
+        </div>
+      </div>
+
+      <button class="button" style="margin-bottom: 16px;" (click)="add()">Add line</button>
+
+      <button class="button" (click)="save()">Save settings</button>
+    </app-offset-block>
+
+  </mpp-modal-body>
+
+</mpp-modal>

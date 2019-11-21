@@ -1,0 +1,12 @@
+@import "base/variables";
+@import "base/placeholders/text";
+
+:host {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.dashboard__chart-title {
+  @extend %text-regular;
+  color: #C29C24; // TODO: Put in a variable
+}

@@ -1,0 +1,22 @@
+@import "base/variables";
+@import "base/placeholders/text";
+
+.mpp-table {
+  width: 100%;
+  margin-top: $offset-l;
+  thead tr th,
+  tbody tr td {
+    @extend %text-monospace;
+
+    text-align: left;
+  }
+
+  thead tr th {
+    vertical-align: top;
+  }
+
+  tbody tr td {
+    vertical-align: middle;
+    padding: 0;
+  }
+}

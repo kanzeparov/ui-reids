@@ -1,0 +1,27 @@
+@import "base/variables";
+
+.button {
+  color: $color-interactive;
+  border: 1px solid $color-interactive;
+  user-select: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+
+  &-link {
+    border: none;
+    display: flex;
+    align-items: center;
+  }
+
+  &.disabled {
+    pointer-events: none;
+    color: $color-gray;
+    border-color: $color-gray;
+  }
+
+  &.active {
+    background-color: $color-interactive;
+    color: $color-white;
+  }
+}

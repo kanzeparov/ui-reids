@@ -1,0 +1,11 @@
+@import 'base/variables';
+
+$modal-header-height: 30px;
+
+header.mpp-modal-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: $modal-header-height;
+  background-color: $color-white;
+}

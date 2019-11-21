@@ -1,0 +1,33 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./src/app",
+    "outDir": "./dist/out-tsc",
+    "paths": {
+      "@core/*": [
+        "./core/*"
+      ],
+      "@shared/*": [
+        "./shared/*"
+      ],
+      "@bootstrap/*": [
+        "./bootstrap/*"
+      ],
+      "@dashboard/*": [
+        "./features/dashboard/*"
+      ],
+      "@chart/*": [
+        "./features/chart/*"
+      ],
+      "@auth/*": [
+        "./features/auth/*"
+      ],
+      "@utils/*": [
+        "./utils/*"
+      ],
+      "@env": [
+        "../environments/environment.ts"
+      ]
+    }
+  }
+}

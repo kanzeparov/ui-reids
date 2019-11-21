@@ -1,0 +1,27 @@
+<ng-container *ngIf="production && production.today; else productionTitle">
+  <div class="dashboard-energy__chart-wrap">
+    <div class="dashboard__chart-title" *ngIf="energyData$ | async as energyData">
+      {{chartTitle$ | async}} <strong>{{ energyData.minEnergy | number }} kW</strong> min,&nbsp;
+      <strong>{{ energyData.maxEnergy | number }}</strong> max, <strong>{{ energyData.averageEnergy | number }}</strong> in average
+    </div>
+
+    <mpp-energy-chart
+      [seriesOptions]="seriesOptions"
+      [data]="production"
+    ></mpp-energy-chart>
+
+    <div class="dashboard__chart-title" *ngIf="energyData$ | async as energyData">
+      {{chartTitle$ | async}} price is <strong>{{ energyData.maxPrice | number }} REIDSCoin / kW·h</strong>&nbsp;
+      now, <strong>{{ energyData.averagePrice | number }}</strong> in average
+    </div>
+
+    <mpp-price-chart
+      [seriesOptions]="seriesOptions"
+      [data]="production"
+    ></mpp-price-chart>
+  </div>
+</ng-container>
+
+<ng-template #productionTitle>
+  <strong>Production</strong>
+</ng-template>

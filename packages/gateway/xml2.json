@@ -1,0 +1,930 @@
+{
+  "_declaration": {
+    "_attributes": {
+      "version": "1.0",
+      "encoding": "windows-1251"
+    }
+  },
+  "message": {
+    "_attributes": {
+      "class": "80020",
+      "version": "2",
+      "number": "1"
+    },
+    "datetime": {
+      "timestamp": {
+        "_text": "20190705090909"
+      },
+      "daylightsavingtime": {
+        "_text": "0"
+      },
+      "day": {
+        "_text": "20190704"
+      }
+    },
+    "sender": {
+      "name": {
+        "_text": "АО \"Алтайэнергосбыт\""
+      },
+      "inn": {
+        "_text": "2224103849"
+      }
+    },
+    "area": {
+      "name": {
+        "_text": "АО \"Алтайэнергосбыт\""
+      },
+      "inn": {
+        "_text": "2224103849"
+      },
+      "measuringpoint": {
+        "_attributes": {
+          "code": "222070008214405",
+          "name": "Мехпресса яч56"
+        },
+        "measuringchannel": [
+          {
+            "_attributes": {
+              "code": "01",
+              "desc": "счетчик, акт. прием"
+            },
+            "period": [
+              {
+                "_attributes": {
+                  "start": "0000",
+                  "end": "0030"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0030",
+                  "end": "0100"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0100",
+                  "end": "0130"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0130",
+                  "end": "0200"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0200",
+                  "end": "0230"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0230",
+                  "end": "0300"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0300",
+                  "end": "0330"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0330",
+                  "end": "0400"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0400",
+                  "end": "0430"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0430",
+                  "end": "0500"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0500",
+                  "end": "0530"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0530",
+                  "end": "0600"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0600",
+                  "end": "0630"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0630",
+                  "end": "0700"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0700",
+                  "end": "0730"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0730",
+                  "end": "0800"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0800",
+                  "end": "0830"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0830",
+                  "end": "0900"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0900",
+                  "end": "0930"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0930",
+                  "end": "1000"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1000",
+                  "end": "1030"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1030",
+                  "end": "1100"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1100",
+                  "end": "1130"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1130",
+                  "end": "1200"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1200",
+                  "end": "1230"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1230",
+                  "end": "1300"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1300",
+                  "end": "1330"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1330",
+                  "end": "1400"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1400",
+                  "end": "1430"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1430",
+                  "end": "1500"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1500",
+                  "end": "1530"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1530",
+                  "end": "1600"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1600",
+                  "end": "1630"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1630",
+                  "end": "1700"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1700",
+                  "end": "1730"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1730",
+                  "end": "1800"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1800",
+                  "end": "1830"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1830",
+                  "end": "1900"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1900",
+                  "end": "1930"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1930",
+                  "end": "2000"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2000",
+                  "end": "2030"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2030",
+                  "end": "2100"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2100",
+                  "end": "2130"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2130",
+                  "end": "2200"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2200",
+                  "end": "2230"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2230",
+                  "end": "2300"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2300",
+                  "end": "2330"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2330",
+                  "end": "0000"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              }
+            ]
+          },
+          {
+            "_attributes": {
+              "code": "02",
+              "desc": "счетчик, акт. отдача"
+            },
+            "period": [
+              {
+                "_attributes": {
+                  "start": "0000",
+                  "end": "0030"
+                },
+                "value": {
+                  "_text": "534"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0030",
+                  "end": "0100"
+                },
+                "value": {
+                  "_text": "447"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0100",
+                  "end": "0130"
+                },
+                "value": {
+                  "_text": "333"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0130",
+                  "end": "0200"
+                },
+                "value": {
+                  "_text": "314"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0200",
+                  "end": "0230"
+                },
+                "value": {
+                  "_text": "350"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0230",
+                  "end": "0300"
+                },
+                "value": {
+                  "_text": "374"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0300",
+                  "end": "0330"
+                },
+                "value": {
+                  "_text": "526"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0330",
+                  "end": "0400"
+                },
+                "value": {
+                  "_text": "612"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0400",
+                  "end": "0430"
+                },
+                "value": {
+                  "_text": "695"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0430",
+                  "end": "0500"
+                },
+                "value": {
+                  "_text": "819"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0500",
+                  "end": "0530"
+                },
+                "value": {
+                  "_text": "836"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0530",
+                  "end": "0600"
+                },
+                "value": {
+                  "_text": "791"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0600",
+                  "end": "0630"
+                },
+                "value": {
+                  "_text": "772"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0630",
+                  "end": "0700"
+                },
+                "value": {
+                  "_text": "730"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0700",
+                  "end": "0730"
+                },
+                "value": {
+                  "_text": "744"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0730",
+                  "end": "0800"
+                },
+                "value": {
+                  "_text": "732"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0800",
+                  "end": "0830"
+                },
+                "value": {
+                  "_text": "711"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0830",
+                  "end": "0900"
+                },
+                "value": {
+                  "_text": "721"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0900",
+                  "end": "0930"
+                },
+                "value": {
+                  "_text": "751"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0930",
+                  "end": "1000"
+                },
+                "value": {
+                  "_text": "870"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1000",
+                  "end": "1030"
+                },
+                "value": {
+                  "_text": "856"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1030",
+                  "end": "1100"
+                },
+                "value": {
+                  "_text": "813"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1100",
+                  "end": "1130"
+                },
+                "value": {
+                  "_text": "701"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1130",
+                  "end": "1200"
+                },
+                "value": {
+                  "_text": "736"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1200",
+                  "end": "1230"
+                },
+                "value": {
+                  "_text": "767"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1230",
+                  "end": "1300"
+                },
+                "value": {
+                  "_text": "753"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1300",
+                  "end": "1330"
+                },
+                "value": {
+                  "_text": "715"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1330",
+                  "end": "1400"
+                },
+                "value": {
+                  "_text": "625"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1400",
+                  "end": "1430"
+                },
+                "value": {
+                  "_text": "688"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1430",
+                  "end": "1500"
+                },
+                "value": {
+                  "_text": "673"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1500",
+                  "end": "1530"
+                },
+                "value": {
+                  "_text": "575"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1530",
+                  "end": "1600"
+                },
+                "value": {
+                  "_text": "532"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1600",
+                  "end": "1630"
+                },
+                "value": {
+                  "_text": "504"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1630",
+                  "end": "1700"
+                },
+                "value": {
+                  "_text": "471"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1700",
+                  "end": "1730"
+                },
+                "value": {
+                  "_text": "486"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1730",
+                  "end": "1800"
+                },
+                "value": {
+                  "_text": "465"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1800",
+                  "end": "1830"
+                },
+                "value": {
+                  "_text": "446"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1830",
+                  "end": "1900"
+                },
+                "value": {
+                  "_text": "590"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1900",
+                  "end": "1930"
+                },
+                "value": {
+                  "_text": "562"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1930",
+                  "end": "2000"
+                },
+                "value": {
+                  "_text": "536"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2000",
+                  "end": "2030"
+                },
+                "value": {
+                  "_text": "523"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2030",
+                  "end": "2100"
+                },
+                "value": {
+                  "_text": "529"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2100",
+                  "end": "2130"
+                },
+                "value": {
+                  "_text": "506"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2130",
+                  "end": "2200"
+                },
+                "value": {
+                  "_text": "477"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2200",
+                  "end": "2230"
+                },
+                "value": {
+                  "_text": "504"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2230",
+                  "end": "2300"
+                },
+                "value": {
+                  "_text": "491"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2300",
+                  "end": "2330"
+                },
+                "value": {
+                  "_text": "504"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2330",
+                  "end": "0000"
+                },
+                "value": {
+                  "_text": "531"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

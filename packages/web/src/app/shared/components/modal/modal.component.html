@@ -1,0 +1,11 @@
+<section
+  class="mpp-modal"
+  [ngClass]="{
+    'mpp-modal--small': size === 'small',
+    'mpp-modal--medium': size === 'medium',
+    'mpp-modal--large': size === 'large',
+    'mpp-modal--locked-bg': lockedBg
+  }"
+>
+  <ng-content></ng-content>
+</section>

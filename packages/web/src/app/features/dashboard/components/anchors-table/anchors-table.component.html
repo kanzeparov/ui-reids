@@ -1,0 +1,79 @@
+<table class="table" cellspacing="0">
+  <thead>
+    <tr>
+      <th>
+        <app-offset-block class="bold">
+          Date
+        </app-offset-block>
+      </th>
+
+      <th colspan="2">
+        <app-offset-block class="bold">
+          Participant
+        </app-offset-block>
+      </th>
+
+      <th>
+        <app-offset-block class="bold">
+          Address
+        </app-offset-block>
+      </th>
+    </tr>
+
+    <tr>
+      <th>
+      </th>
+
+      <th>
+        <app-offset-block class="thin">
+          Name
+        </app-offset-block>
+      </th>
+
+      <th>
+        <app-offset-block class="thin">
+          ID
+        </app-offset-block>
+      </th>
+
+      <th>
+        <app-offset-block class="thin">
+          Energy
+        </app-offset-block>
+      </th>
+
+      <th>
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr class="table-row" *ngFor="let item of data">
+      <td class="table-col">
+        <app-offset-block>
+          {{ item.data | date }}
+        </app-offset-block>
+      </td>
+
+      <td class="table-col">
+        <app-offset-block>
+          {{ item.participant }}
+        </app-offset-block>
+      </td>
+
+      <td class="table-col">
+        <app-offset-block>
+          {{ item.hashId | shortUuid }}
+        </app-offset-block>
+      </td>
+
+      <td class="table-col">
+        <app-offset-block>
+          <a href="https://rinkeby.etherscan.io/tx/{{ item.address }}" target="_blank">
+            <i class="material-icons">link</i>
+          </a>
+        </app-offset-block>
+      </td>
+    </tr>
+  </tbody>
+</table>

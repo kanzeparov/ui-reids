@@ -1,0 +1,12 @@
+[class^=btn]:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+[class^=btn][disabled] {
+  opacity: .8;
+}
+
+*:focus {
+  outline: none;
+}

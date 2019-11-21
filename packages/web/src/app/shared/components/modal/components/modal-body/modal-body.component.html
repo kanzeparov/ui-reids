@@ -1,0 +1,10 @@
+<section
+  class="mpp-modal-body"
+  [ngClass]="{
+    'mpp-modal-body--with-spacing': withSpacing,
+    'mpp-modal-body--white': bgColor === 'white',
+    'mpp-modal-body--off-white': bgColor === 'off-white'
+  }"
+>
+  <ng-content></ng-content>
+</section>

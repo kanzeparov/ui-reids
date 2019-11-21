@@ -1,0 +1,3 @@
+CREATE DATABASE onder_mpp;
+CREATE USER root;
+GRANT ALL PRIVILEGES ON DATABASE "onder_mpp" to root;

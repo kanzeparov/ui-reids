@@ -1,0 +1,20 @@
+<mpp-modal>
+  <mpp-modal-header>
+    <i class="material-icons" style="cursor: pointer;" (click)="close()">close</i>
+  </mpp-modal-header>
+
+  <mpp-modal-body>
+    <app-offset-block yOffset="x-large" xOffset="x-large">
+      <h2>Energy storage settings</h2>
+
+      <label>
+        Price Setting
+        <input [(ngModel)]="margin">
+        <span>REIDSCoin/kW·h</span>
+      </label>
+      <button class="button" (click)="save()">Save settings</button>
+    </app-offset-block>
+
+  </mpp-modal-body>
+
+</mpp-modal>

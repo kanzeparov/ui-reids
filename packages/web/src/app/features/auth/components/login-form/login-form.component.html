@@ -1,0 +1,34 @@
+<form
+  class="app-login__form"
+  (ngSubmit)="onSubmit()"
+  #loginForm="ngForm"
+>
+  <div class="form-group">
+    <input
+      class="app-login__control form-control"
+      type="text"
+      placeholder="Email"
+      [(ngModel)]="email"
+      name="email"
+    >
+  </div>
+  <div class="form-group">
+    <input
+      class="app-login__control form-control"
+      type="password"
+      placeholder="Password"
+      [(ngModel)]="password"
+      name="password"
+    >
+  </div>
+  <button
+    class="app-login__submit p-m"
+    type="submit"
+    ngbButton
+    [disabled]="!loginForm.form.valid"
+  >
+    Log in
+  </button>
+
+  <span>To gain access, please, contact rustem.khusnutdinov@onder.tech</span>
+</form>

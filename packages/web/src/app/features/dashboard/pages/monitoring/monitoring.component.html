@@ -1,0 +1,17 @@
+<ng-container *ngIf="consumption$ | async as consumption">
+  <mpp-consumption-charts [consumption]="consumption"></mpp-consumption-charts>
+
+  <mpp-peers-table [data]="consumption">
+    <div class="operator">{{ (tableName$ | async).consumption }}</div>
+    <div class="type">Bought</div>
+  </mpp-peers-table>
+</ng-container>
+
+<ng-container *ngIf="production$ | async as production">
+  <mpp-production-charts [production]="production"></mpp-production-charts>
+
+  <mpp-peers-table [data]="production">
+    <div class="operator">{{ (tableName$ | async).production }}</div>
+    <div class="type">Sold</div>
+  </mpp-peers-table>
+</ng-container>

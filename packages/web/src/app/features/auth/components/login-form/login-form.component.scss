@@ -1,0 +1,18 @@
+@import "base/variables";
+
+.app-login {
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+  &__control {
+    border: none;
+    border-bottom: 1px solid $color-interactive;
+    border-radius: 0;
+  }
+  &__submit {
+    background-color: $color-yellow;
+    border-radius: $border-radius-xs;
+    border: none;
+  }
+}

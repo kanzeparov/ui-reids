@@ -1,0 +1,21 @@
+.app-selector {
+  &__label {
+    color: grey;
+    font-size: 12px;
+    margin: 0;
+  }
+  &__toggle {
+    cursor: pointer;
+  }
+  &__content {
+    display: flex;
+    align-items: center;
+    > span {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    &:after {
+      content: none;
+    }
+  }
+}

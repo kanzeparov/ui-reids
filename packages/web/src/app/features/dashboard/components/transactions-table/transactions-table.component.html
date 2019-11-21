@@ -1,0 +1,102 @@
+<table class="table" cellspacing="0">
+  <thead>
+    <tr>
+      <th>
+        <app-offset-block class="bold">
+          Time
+        </app-offset-block>
+      </th>
+
+      <th>
+        <app-offset-block class="bold">
+          From
+        </app-offset-block>
+      </th>
+
+      <th>
+        <app-offset-block class="bold">
+          To
+        </app-offset-block>
+      </th>
+      
+      <th>
+        <app-offset-block class="bold">
+          Price
+        </app-offset-block>
+      </th>
+      
+      <th colspan="2">
+        <app-offset-block class="bold">
+          Transferred
+        </app-offset-block>
+      </th>
+
+    </tr>
+
+    <tr>
+      <th>
+        
+      </th>
+
+      <th>
+        
+      </th>
+
+      <th>
+        
+      </th>
+
+      <th>
+        <app-offset-block class="thin">
+          Energy
+        </app-offset-block>
+      </th>
+      
+      <th>
+        <app-offset-block class="thin">
+          REIDSCoin
+        </app-offset-block>
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr class="table-row" *ngFor="let item of data">
+      <td class="table-col">
+        <app-offset-block>
+          {{ item.time | formatDatetime }}
+        </app-offset-block>
+      </td>
+    
+      <td class="table-col">
+        <app-offset-block>
+          {{ item.from }}
+        </app-offset-block>
+      </td>
+    
+      <td class="table-col">
+        <app-offset-block>
+          {{ item.to }}
+        </app-offset-block>
+      </td>
+    
+      <td class="table-col">
+        <app-offset-block>
+          {{ item.price }}
+        </app-offset-block>
+      </td>
+    
+      <td class="table-col">
+        <app-offset-block>
+          {{ item.transfer_energy }}
+        </app-offset-block>
+      </td>
+      
+      <td class="table-col">
+        <app-offset-block>
+          {{ item.transfer_coins }}
+        </app-offset-block>
+      </td>
+    </tr>
+  </tbody>
+</table>

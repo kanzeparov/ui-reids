@@ -1,0 +1,39 @@
+@import 'framework/mixins';
+
+.header {
+  @include flex-container(row, center, space-between);
+  padding: 25px 0;
+
+  &-menu {
+    display: flex;
+    align-items: center;
+  }
+
+  &-logo {
+    margin-right: 16px;
+    height: 22px;
+  }
+
+  &-title {
+    @include flex-container(row, center);
+    > h1 {
+      margin-bottom: 0;
+    }
+    &__cell {
+      @include flex-container(row, center, space-between);
+      > i {
+        margin: 0 8px;
+      }
+      > *:not(:last-child) {
+        margin-right: 6px;
+      }
+      .balance {
+        margin-left: 32px;
+      }
+    }
+  }
+}
+
+.dropdown-toggle {
+  border: none;
+}

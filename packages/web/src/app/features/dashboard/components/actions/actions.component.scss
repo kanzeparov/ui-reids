@@ -1,0 +1,24 @@
+@import "base/variables";
+
+.actions-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.notarization-actions {
+  display: flex;
+  align-items: center;
+  &__modal {
+    margin-right: 14px;
+    > i {
+      margin-right: 6px;
+      font-size: 20px;
+      color: $color-interactive;
+    }
+    > span {
+      text-decoration: underline;
+      color: $color-interactive;
+    }
+  }
+}

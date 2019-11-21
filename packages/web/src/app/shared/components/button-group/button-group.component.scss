@@ -1,0 +1,22 @@
+.button-group {
+  > .button {
+    // &:not(:first-child) {
+    //   border-left: none;
+    // }
+    // &:not(:last-child) {
+    //   border-right: none;
+    // }
+    &:first-child {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+    &:last-child {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+    // &:after {
+    //   content: '';
+    //   display: block;
+    // }
+  }
+}

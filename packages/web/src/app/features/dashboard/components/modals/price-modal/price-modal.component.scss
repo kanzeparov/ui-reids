@@ -1,0 +1,9 @@
+@import "base/variables";
+
+.modal-control {
+  border: none;
+  border-bottom: 1px solid $color-interactive;
+  border-radius: 0;
+  margin: 0 16px;
+  max-width: 60px;
+}

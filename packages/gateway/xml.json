@@ -1,0 +1,1828 @@
+{
+  "_declaration": {
+    "_attributes": {
+      "version": "1.0",
+      "encoding": "windows-1251"
+    }
+  },
+  "message": {
+    "_attributes": {
+      "class": "80020",
+      "version": "2",
+      "number": "201"
+    },
+    "datetime": {
+      "timestamp": {
+        "_text": "20190724093044"
+      },
+      "daylightsavingtime": {
+        "_text": "0"
+      },
+      "day": {
+        "_text": "20190723"
+      }
+    },
+    "sender": {
+      "inn": {
+        "_text": "7736520080"
+      },
+      "name": {
+        "_text": "АО \"Мосэнергосбыт\""
+      }
+    },
+    "area": {
+      "inn": {
+        "_text": "5031010590"
+      },
+      "name": {
+        "_text": "ОАО «НЗТА»"
+      },
+      "measuringpoint": [
+        {
+          "_attributes": {
+            "code": "4071100084016",
+            "name": "ф.102"
+          },
+          "measuringchannel": {
+            "_attributes": {
+              "code": "01",
+              "desc": "Активная энергия, прием округл."
+            },
+            "period": [
+              {
+                "_attributes": {
+                  "start": "0000",
+                  "end": "0030"
+                },
+                "value": {
+                  "_text": "188"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0030",
+                  "end": "0100"
+                },
+                "value": {
+                  "_text": "186"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0100",
+                  "end": "0130"
+                },
+                "value": {
+                  "_text": "186"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0130",
+                  "end": "0200"
+                },
+                "value": {
+                  "_text": "176"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0200",
+                  "end": "0230"
+                },
+                "value": {
+                  "_text": "178"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0230",
+                  "end": "0300"
+                },
+                "value": {
+                  "_text": "183"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0300",
+                  "end": "0330"
+                },
+                "value": {
+                  "_text": "189"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0330",
+                  "end": "0400"
+                },
+                "value": {
+                  "_text": "183"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0400",
+                  "end": "0430"
+                },
+                "value": {
+                  "_text": "188"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0430",
+                  "end": "0500"
+                },
+                "value": {
+                  "_text": "194"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0500",
+                  "end": "0530"
+                },
+                "value": {
+                  "_text": "184"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0530",
+                  "end": "0600"
+                },
+                "value": {
+                  "_text": "189"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0600",
+                  "end": "0630"
+                },
+                "value": {
+                  "_text": "198"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0630",
+                  "end": "0700"
+                },
+                "value": {
+                  "_text": "233"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0700",
+                  "end": "0730"
+                },
+                "value": {
+                  "_text": "322"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0730",
+                  "end": "0800"
+                },
+                "value": {
+                  "_text": "521"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0800",
+                  "end": "0830"
+                },
+                "value": {
+                  "_text": "538"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0830",
+                  "end": "0900"
+                },
+                "value": {
+                  "_text": "576"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0900",
+                  "end": "0930"
+                },
+                "value": {
+                  "_text": "635"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0930",
+                  "end": "1000"
+                },
+                "value": {
+                  "_text": "679"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1000",
+                  "end": "1030"
+                },
+                "value": {
+                  "_text": "640"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1030",
+                  "end": "1100"
+                },
+                "value": {
+                  "_text": "614"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1100",
+                  "end": "1130"
+                },
+                "value": {
+                  "_text": "595"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1130",
+                  "end": "1200"
+                },
+                "value": {
+                  "_text": "574"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1200",
+                  "end": "1230"
+                },
+                "value": {
+                  "_text": "593"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1230",
+                  "end": "1300"
+                },
+                "value": {
+                  "_text": "584"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1300",
+                  "end": "1330"
+                },
+                "value": {
+                  "_text": "559"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1330",
+                  "end": "1400"
+                },
+                "value": {
+                  "_text": "419"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1400",
+                  "end": "1430"
+                },
+                "value": {
+                  "_text": "445"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1430",
+                  "end": "1500"
+                },
+                "value": {
+                  "_text": "445"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1500",
+                  "end": "1530"
+                },
+                "value": {
+                  "_text": "437"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1530",
+                  "end": "1600"
+                },
+                "value": {
+                  "_text": "519"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1600",
+                  "end": "1630"
+                },
+                "value": {
+                  "_text": "418"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1630",
+                  "end": "1700"
+                },
+                "value": {
+                  "_text": "427"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1700",
+                  "end": "1730"
+                },
+                "value": {
+                  "_text": "391"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1730",
+                  "end": "1800"
+                },
+                "value": {
+                  "_text": "369"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1800",
+                  "end": "1830"
+                },
+                "value": {
+                  "_text": "254"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1830",
+                  "end": "1900"
+                },
+                "value": {
+                  "_text": "238"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1900",
+                  "end": "1930"
+                },
+                "value": {
+                  "_text": "248"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1930",
+                  "end": "2000"
+                },
+                "value": {
+                  "_text": "266"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2000",
+                  "end": "2030"
+                },
+                "value": {
+                  "_text": "262"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2030",
+                  "end": "2100"
+                },
+                "value": {
+                  "_text": "233"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2100",
+                  "end": "2130"
+                },
+                "value": {
+                  "_text": "229"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2130",
+                  "end": "2200"
+                },
+                "value": {
+                  "_text": "246"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2200",
+                  "end": "2230"
+                },
+                "value": {
+                  "_text": "259"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2230",
+                  "end": "2300"
+                },
+                "value": {
+                  "_text": "251"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2300",
+                  "end": "2330"
+                },
+                "value": {
+                  "_text": "243"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2330",
+                  "end": "0000"
+                },
+                "value": {
+                  "_text": "245"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "_attributes": {
+            "code": "4071100084034",
+            "name": "ф.203"
+          },
+          "measuringchannel": {
+            "_attributes": {
+              "code": "01",
+              "desc": "Активная энергия, прием округл."
+            },
+            "period": [
+              {
+                "_attributes": {
+                  "start": "0000",
+                  "end": "0030"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0030",
+                  "end": "0100"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0100",
+                  "end": "0130"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0130",
+                  "end": "0200"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0200",
+                  "end": "0230"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0230",
+                  "end": "0300"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0300",
+                  "end": "0330"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0330",
+                  "end": "0400"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0400",
+                  "end": "0430"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0430",
+                  "end": "0500"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0500",
+                  "end": "0530"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0530",
+                  "end": "0600"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0600",
+                  "end": "0630"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0630",
+                  "end": "0700"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0700",
+                  "end": "0730"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0730",
+                  "end": "0800"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0800",
+                  "end": "0830"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0830",
+                  "end": "0900"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0900",
+                  "end": "0930"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0930",
+                  "end": "1000"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1000",
+                  "end": "1030"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1030",
+                  "end": "1100"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1100",
+                  "end": "1130"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1130",
+                  "end": "1200"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1200",
+                  "end": "1230"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1230",
+                  "end": "1300"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1300",
+                  "end": "1330"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1330",
+                  "end": "1400"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1400",
+                  "end": "1430"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1430",
+                  "end": "1500"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1500",
+                  "end": "1530"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1530",
+                  "end": "1600"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1600",
+                  "end": "1630"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1630",
+                  "end": "1700"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1700",
+                  "end": "1730"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1730",
+                  "end": "1800"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1800",
+                  "end": "1830"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1830",
+                  "end": "1900"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1900",
+                  "end": "1930"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1930",
+                  "end": "2000"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2000",
+                  "end": "2030"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2030",
+                  "end": "2100"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2100",
+                  "end": "2130"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2130",
+                  "end": "2200"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2200",
+                  "end": "2230"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2230",
+                  "end": "2300"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2300",
+                  "end": "2330"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2330",
+                  "end": "0000"
+                },
+                "value": {
+                  "_text": "0"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "_attributes": {
+            "code": "4071100084006",
+            "name": "ф.301"
+          },
+          "measuringchannel": {
+            "_attributes": {
+              "code": "01",
+              "desc": "Активная энергия, прием округл."
+            },
+            "period": [
+              {
+                "_attributes": {
+                  "start": "0000",
+                  "end": "0030"
+                },
+                "value": {
+                  "_text": "233"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0030",
+                  "end": "0100"
+                },
+                "value": {
+                  "_text": "191"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0100",
+                  "end": "0130"
+                },
+                "value": {
+                  "_text": "189"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0130",
+                  "end": "0200"
+                },
+                "value": {
+                  "_text": "198"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0200",
+                  "end": "0230"
+                },
+                "value": {
+                  "_text": "192"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0230",
+                  "end": "0300"
+                },
+                "value": {
+                  "_text": "200"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0300",
+                  "end": "0330"
+                },
+                "value": {
+                  "_text": "243"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0330",
+                  "end": "0400"
+                },
+                "value": {
+                  "_text": "241"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0400",
+                  "end": "0430"
+                },
+                "value": {
+                  "_text": "251"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0430",
+                  "end": "0500"
+                },
+                "value": {
+                  "_text": "236"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0500",
+                  "end": "0530"
+                },
+                "value": {
+                  "_text": "238"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0530",
+                  "end": "0600"
+                },
+                "value": {
+                  "_text": "262"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0600",
+                  "end": "0630"
+                },
+                "value": {
+                  "_text": "225"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0630",
+                  "end": "0700"
+                },
+                "value": {
+                  "_text": "255"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0700",
+                  "end": "0730"
+                },
+                "value": {
+                  "_text": "328"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0730",
+                  "end": "0800"
+                },
+                "value": {
+                  "_text": "383"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0800",
+                  "end": "0830"
+                },
+                "value": {
+                  "_text": "413"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0830",
+                  "end": "0900"
+                },
+                "value": {
+                  "_text": "446"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0900",
+                  "end": "0930"
+                },
+                "value": {
+                  "_text": "459"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0930",
+                  "end": "1000"
+                },
+                "value": {
+                  "_text": "456"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1000",
+                  "end": "1030"
+                },
+                "value": {
+                  "_text": "508"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1030",
+                  "end": "1100"
+                },
+                "value": {
+                  "_text": "454"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1100",
+                  "end": "1130"
+                },
+                "value": {
+                  "_text": "451"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1130",
+                  "end": "1200"
+                },
+                "value": {
+                  "_text": "492"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1200",
+                  "end": "1230"
+                },
+                "value": {
+                  "_text": "483"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1230",
+                  "end": "1300"
+                },
+                "value": {
+                  "_text": "480"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1300",
+                  "end": "1330"
+                },
+                "value": {
+                  "_text": "413"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1330",
+                  "end": "1400"
+                },
+                "value": {
+                  "_text": "444"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1400",
+                  "end": "1430"
+                },
+                "value": {
+                  "_text": "395"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1430",
+                  "end": "1500"
+                },
+                "value": {
+                  "_text": "366"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1500",
+                  "end": "1530"
+                },
+                "value": {
+                  "_text": "381"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1530",
+                  "end": "1600"
+                },
+                "value": {
+                  "_text": "360"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1600",
+                  "end": "1630"
+                },
+                "value": {
+                  "_text": "334"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1630",
+                  "end": "1700"
+                },
+                "value": {
+                  "_text": "330"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1700",
+                  "end": "1730"
+                },
+                "value": {
+                  "_text": "309"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1730",
+                  "end": "1800"
+                },
+                "value": {
+                  "_text": "300"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1800",
+                  "end": "1830"
+                },
+                "value": {
+                  "_text": "262"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1830",
+                  "end": "1900"
+                },
+                "value": {
+                  "_text": "244"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1900",
+                  "end": "1930"
+                },
+                "value": {
+                  "_text": "231"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1930",
+                  "end": "2000"
+                },
+                "value": {
+                  "_text": "223"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2000",
+                  "end": "2030"
+                },
+                "value": {
+                  "_text": "210"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2030",
+                  "end": "2100"
+                },
+                "value": {
+                  "_text": "220"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2100",
+                  "end": "2130"
+                },
+                "value": {
+                  "_text": "210"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2130",
+                  "end": "2200"
+                },
+                "value": {
+                  "_text": "236"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2200",
+                  "end": "2230"
+                },
+                "value": {
+                  "_text": "200"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2230",
+                  "end": "2300"
+                },
+                "value": {
+                  "_text": "175"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2300",
+                  "end": "2330"
+                },
+                "value": {
+                  "_text": "188"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2330",
+                  "end": "0000"
+                },
+                "value": {
+                  "_text": "203"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "_attributes": {
+            "code": "4071100084023",
+            "name": "ф.402"
+          },
+          "measuringchannel": {
+            "_attributes": {
+              "code": "01",
+              "desc": "Активная энергия, прием округл."
+            },
+            "period": [
+              {
+                "_attributes": {
+                  "start": "0000",
+                  "end": "0030"
+                },
+                "value": {
+                  "_text": "106"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0030",
+                  "end": "0100"
+                },
+                "value": {
+                  "_text": "103"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0100",
+                  "end": "0130"
+                },
+                "value": {
+                  "_text": "99"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0130",
+                  "end": "0200"
+                },
+                "value": {
+                  "_text": "102"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0200",
+                  "end": "0230"
+                },
+                "value": {
+                  "_text": "100"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0230",
+                  "end": "0300"
+                },
+                "value": {
+                  "_text": "92"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0300",
+                  "end": "0330"
+                },
+                "value": {
+                  "_text": "92"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0330",
+                  "end": "0400"
+                },
+                "value": {
+                  "_text": "80"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0400",
+                  "end": "0430"
+                },
+                "value": {
+                  "_text": "76"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0430",
+                  "end": "0500"
+                },
+                "value": {
+                  "_text": "72"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0500",
+                  "end": "0530"
+                },
+                "value": {
+                  "_text": "73"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0530",
+                  "end": "0600"
+                },
+                "value": {
+                  "_text": "67"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0600",
+                  "end": "0630"
+                },
+                "value": {
+                  "_text": "71"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0630",
+                  "end": "0700"
+                },
+                "value": {
+                  "_text": "95"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0700",
+                  "end": "0730"
+                },
+                "value": {
+                  "_text": "102"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0730",
+                  "end": "0800"
+                },
+                "value": {
+                  "_text": "103"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0800",
+                  "end": "0830"
+                },
+                "value": {
+                  "_text": "117"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0830",
+                  "end": "0900"
+                },
+                "value": {
+                  "_text": "126"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0900",
+                  "end": "0930"
+                },
+                "value": {
+                  "_text": "133"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "0930",
+                  "end": "1000"
+                },
+                "value": {
+                  "_text": "122"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1000",
+                  "end": "1030"
+                },
+                "value": {
+                  "_text": "123"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1030",
+                  "end": "1100"
+                },
+                "value": {
+                  "_text": "130"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1100",
+                  "end": "1130"
+                },
+                "value": {
+                  "_text": "134"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1130",
+                  "end": "1200"
+                },
+                "value": {
+                  "_text": "148"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1200",
+                  "end": "1230"
+                },
+                "value": {
+                  "_text": "128"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1230",
+                  "end": "1300"
+                },
+                "value": {
+                  "_text": "118"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1300",
+                  "end": "1330"
+                },
+                "value": {
+                  "_text": "115"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1330",
+                  "end": "1400"
+                },
+                "value": {
+                  "_text": "113"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1400",
+                  "end": "1430"
+                },
+                "value": {
+                  "_text": "108"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1430",
+                  "end": "1500"
+                },
+                "value": {
+                  "_text": "113"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1500",
+                  "end": "1530"
+                },
+                "value": {
+                  "_text": "122"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1530",
+                  "end": "1600"
+                },
+                "value": {
+                  "_text": "116"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1600",
+                  "end": "1630"
+                },
+                "value": {
+                  "_text": "107"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1630",
+                  "end": "1700"
+                },
+                "value": {
+                  "_text": "111"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1700",
+                  "end": "1730"
+                },
+                "value": {
+                  "_text": "102"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1730",
+                  "end": "1800"
+                },
+                "value": {
+                  "_text": "82"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1800",
+                  "end": "1830"
+                },
+                "value": {
+                  "_text": "80"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1830",
+                  "end": "1900"
+                },
+                "value": {
+                  "_text": "92"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1900",
+                  "end": "1930"
+                },
+                "value": {
+                  "_text": "81"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "1930",
+                  "end": "2000"
+                },
+                "value": {
+                  "_text": "80"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2000",
+                  "end": "2030"
+                },
+                "value": {
+                  "_text": "83"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2030",
+                  "end": "2100"
+                },
+                "value": {
+                  "_text": "81"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2100",
+                  "end": "2130"
+                },
+                "value": {
+                  "_text": "80"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2130",
+                  "end": "2200"
+                },
+                "value": {
+                  "_text": "80"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2200",
+                  "end": "2230"
+                },
+                "value": {
+                  "_text": "79"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2230",
+                  "end": "2300"
+                },
+                "value": {
+                  "_text": "76"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2300",
+                  "end": "2330"
+                },
+                "value": {
+                  "_text": "77"
+                }
+              },
+              {
+                "_attributes": {
+                  "start": "2330",
+                  "end": "0000"
+                },
+                "value": {
+                  "_text": "79"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

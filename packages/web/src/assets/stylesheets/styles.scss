@@ -1,0 +1,30 @@
+@import "fonts/ubuntu-mono";
+@import "overrides/bootstrap";
+@import "framework/colors";
+@import "framework/offsets";
+@import "framework/text";
+@import "framework/icons";
+@import "framework/buttons";
+@import "framework/mixins";
+
+@import "base/placeholders/text";
+
+html, body {
+  @extend %text-regular;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+a {
+  color: $color-interactive;
+}
+
+/* Change the white to any color ;) */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active  {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  box-shadow: 0 0 0 30px white inset !important;
+}

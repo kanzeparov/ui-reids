@@ -1,0 +1,50 @@
+<div class="actions">
+  <div class="actions-row">
+    <div class="btn-group btn-group-toggle" ngbRadioGroup name="date-range-group" [(ngModel)]="dateRange">
+      <label ngbButtonLabel class="button">
+        <input ngbButton type="radio" value="today" (change)="changeDateRange($event.target.value)"> Today
+      </label>
+      <label ngbButtonLabel class="button">
+        <input ngbButton type="radio" [value]="30" (change)="changeDateRange($event.target.value)"> 30
+      </label>
+    </div>
+
+    <div class="btn-group btn-group-toggle" ngbRadioGroup name="navigation-group" [(ngModel)]="navigationTab">
+      <label ngbButtonLabel class="button">
+        <input ngbButton type="radio" value="monitoring" [routerLink]="['monitoring']"> {{ navigationTabName }}
+      </label>
+      <label ngbButtonLabel class="button">
+        <input ngbButton type="radio" value="transactions" [routerLink]="['transactions']"> Transactions
+      </label>
+    </div>
+
+    <div class="notarization-actions" *ngIf="notarization$ | async as notarization">
+      <div [ngSwitch]="notarization.success">
+        <a
+          (click)="$event.preventDefault(); openNotarizationModal()"
+          class="button button-link notarization-actions__modal"
+          *ngSwitchCase="true"
+        >
+          <i class="material-icons small">done</i>
+          <span>Verified by blockchain</span>
+        </a>
+        <a
+          (click)="$event.preventDefault(); openNotarizationModal()"
+          class="button button-link notarization-actions__modal"
+          *ngSwitchCase="false"
+        >
+          <i class="material-icons small">close</i>
+          <span>Not verified by blockchain</span>
+        </a>
+      </div>
+      <button class="button" (click)="closeChannels()">Close channels</button>
+    </div>
+  </div>
+
+  <div class="actions-row">
+    <button class="button" (click)="download()">
+      <span>Download Tables</span>
+      <i class="material-icons small">arrow_downward</i>
+    </button>
+  </div>
+</div>

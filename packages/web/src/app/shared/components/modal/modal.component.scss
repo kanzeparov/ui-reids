@@ -1,0 +1,25 @@
+@import 'base/variables';
+
+$modal-container-width: 750px;
+$modal-container-width-large: 1000px;
+$modal-container-width-small: 570px;
+
+.mpp-modal {
+  width: $modal-container-width;
+  background-color: $color-white;
+  // box-shadow: $default-shadow;
+  // border-radius: $border-radius-container;
+
+  &--locked-bg {
+    overflow: hidden;
+  }
+
+  &--large {
+    width: $modal-container-width-large;
+  }
+
+  &--small {
+    width: $modal-container-width-small;
+  }
+}
+
